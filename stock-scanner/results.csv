@@ -1,0 +1,16 @@
+symbol,price,daily_change,current_volume,average_volume,relative_volume,rsi,moving_average_20,above_20_day_ma,reason,score
+AAPL,327.56,4.03,35323071,63945008,0.55,70.25,301.93,True,"positive momentum, relative volume 0.55 above 0.5, above 20-day moving average, RSI 70.25 below 80",6
+COIN,165.28,2.34,3837004,7499650,0.51,61.58,158.91,True,"positive momentum, relative volume 0.51 above 0.5, above 20-day moving average, RSI 61.58 below 80",6
+GOOGL,372.03,3.48,16096896,33661844,0.48,68.02,357.75,True,"positive momentum, above 20-day moving average, RSI 68.02 below 80",5
+AMZN,254.93,3.01,26573320,59900776,0.44,72.03,241.37,True,"positive momentum, above 20-day moving average, RSI 72.03 below 80",5
+MSFT,395.72,2.8,20721377,46245163,0.45,65.94,380.05,True,"positive momentum, above 20-day moving average, RSI 65.94 below 80",5
+META,676.33,2.31,12638208,20278045,0.62,72.98,597.87,True,"positive momentum, relative volume 0.62 above 0.5, above 20-day moving average, RSI 72.98 below 80",5
+AVGO,394.15,1.3,8829189,27037604,0.33,54.99,382.96,True,"positive momentum, above 20-day moving average, RSI 54.99 below 80",5
+TSLA,399.18,0.76,22406230,42622461,0.53,57.14,399.54,False,"positive momentum, relative volume 0.53 above 0.5, RSI 57.14 below 80",5
+PLTR,133.99,0.2,18325166,44826083,0.41,71.3,125.12,True,"positive momentum, above 20-day moving average, RSI 71.30 below 80",5
+NVDA,209.79,-0.95,73256021,141740571,0.52,59.67,202.08,True,"relative volume 0.52 above 0.5, above 20-day moving average, RSI 59.67 below 80",5
+SOFI,18.08,-2.51,48460559,86681087,0.56,56.79,17.95,True,"relative volume 0.56 above 0.5, above 20-day moving average, RSI 56.79 below 80",5
+NFLX,73.77,0.33,19114845,49094307,0.39,55.33,74.5,False,"positive momentum, RSI 55.33 below 80",4
+INTC,101.75,-5.57,80599482,115300249,0.7,29.39,121.74,False,"relative volume 0.70 above 0.5, RSI 29.39 below 80",4
+QCOM,177.76,-0.19,4748652,19828697,0.24,36.23,193.93,False,RSI 36.23 below 80,3
+AMD,530.79,-3.16,19402425,28705681,0.68,51.77,534.26,False,"relative volume 0.68 above 0.5, RSI 51.77 below 80",3
