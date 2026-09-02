@@ -1,16 +1,16 @@
-symbol,price,daily_change,current_volume,average_volume,relative_volume,rsi,moving_average_20,above_20_day_ma,reason,score
-AAPL,327.56,4.03,35323071,63945008,0.55,70.25,301.93,True,"positive momentum, relative volume 0.55 above 0.5, above 20-day moving average, RSI 70.25 below 80",6
-COIN,165.28,2.34,3837004,7499650,0.51,61.58,158.91,True,"positive momentum, relative volume 0.51 above 0.5, above 20-day moving average, RSI 61.58 below 80",6
-GOOGL,372.03,3.48,16096896,33661844,0.48,68.02,357.75,True,"positive momentum, above 20-day moving average, RSI 68.02 below 80",5
-AMZN,254.93,3.01,26573320,59900776,0.44,72.03,241.37,True,"positive momentum, above 20-day moving average, RSI 72.03 below 80",5
-MSFT,395.72,2.8,20721377,46245163,0.45,65.94,380.05,True,"positive momentum, above 20-day moving average, RSI 65.94 below 80",5
-META,676.33,2.31,12638208,20278045,0.62,72.98,597.87,True,"positive momentum, relative volume 0.62 above 0.5, above 20-day moving average, RSI 72.98 below 80",5
-AVGO,394.15,1.3,8829189,27037604,0.33,54.99,382.96,True,"positive momentum, above 20-day moving average, RSI 54.99 below 80",5
-TSLA,399.18,0.76,22406230,42622461,0.53,57.14,399.54,False,"positive momentum, relative volume 0.53 above 0.5, RSI 57.14 below 80",5
-PLTR,133.99,0.2,18325166,44826083,0.41,71.3,125.12,True,"positive momentum, above 20-day moving average, RSI 71.30 below 80",5
-NVDA,209.79,-0.95,73256021,141740571,0.52,59.67,202.08,True,"relative volume 0.52 above 0.5, above 20-day moving average, RSI 59.67 below 80",5
-SOFI,18.08,-2.51,48460559,86681087,0.56,56.79,17.95,True,"relative volume 0.56 above 0.5, above 20-day moving average, RSI 56.79 below 80",5
-NFLX,73.77,0.33,19114845,49094307,0.39,55.33,74.5,False,"positive momentum, RSI 55.33 below 80",4
-INTC,101.75,-5.57,80599482,115300249,0.7,29.39,121.74,False,"relative volume 0.70 above 0.5, RSI 29.39 below 80",4
-QCOM,177.76,-0.19,4748652,19828697,0.24,36.23,193.93,False,RSI 36.23 below 80,3
-AMD,530.79,-3.16,19402425,28705681,0.68,51.77,534.26,False,"relative volume 0.68 above 0.5, RSI 51.77 below 80",3
+symbol,price,daily_change,current_volume,average_volume,relative_volume,rsi,moving_average_20,distance_from_ma_20,distance_from_ma_50,distance_from_ma_200,atr_percent,volatility_20,above_20_day_ma,big_move_probability,probability_big_move_5_days,meets_big_move_threshold,reason,score,qualifies
+SOFI,17.87,-3.67,72177300,87873640,0.82,54.73,17.94,-0.38,5.27,-18.48,5.26,44.64,False,0.7359167414628,73.59,True,"relative volume 0.82, RSI 54.73 below 80, large-move probability 73.59%",4,True
+INTC,102.99,-4.43,120232900,117294905,1.03,29.9,121.8,-15.44,-12.35,62.03,9.45,88.64,False,0.6850881150269614,68.51,False,"relative volume 1.03, RSI 29.90 below 80",4,False
+AMD,529.14,-3.46,27767900,29127380,0.95,51.49,534.17,-0.94,7.31,80.4,7.57,74.96,False,0.6708403341024772,67.08,False,"relative volume 0.95, RSI 51.49 below 80",3,False
+COIN,167.21,3.54,7560800,7687845,0.98,62.67,159.0,5.16,-3.7,-25.48,5.71,57.62,True,0.662363491861552,66.24,False,"positive daily momentum, relative volume 0.98, above 20-day moving average, RSI 62.67 below 80",6,False
+PLTR,133.76,0.03,26017700,45218555,0.58,71.16,125.11,6.92,0.74,-14.3,5.4,56.03,True,0.6432966496221664,64.33,False,"positive daily momentum, relative volume 0.58, above 20-day moving average, RSI 71.16 below 80",6,False
+QCOM,177.98,-0.07,9431700,20064170,0.47,36.35,193.94,-8.23,-14.03,6.12,6.26,58.71,False,0.6412951993233569,64.13,False,RSI 36.35 below 80,3,False
+AVGO,394.28,1.33,16289600,27411755,0.59,55.03,382.96,2.96,-2.52,8.9,3.81,49.97,True,0.6226012615361619,62.26,False,"positive daily momentum, relative volume 0.59, above 20-day moving average, RSI 55.03 below 80",6,False
+TSLA,394.46,-0.43,31471800,43078960,0.73,55.76,399.31,-1.21,-3.79,-5.54,4.79,59.39,False,0.6204354703857975,62.04,False,"relative volume 0.73, RSI 55.76 below 80",4,False
+META,681.31,3.07,18983100,20596135,0.92,73.49,598.12,13.91,13.12,6.39,4.22,55.79,True,0.5598723337138208,55.99,False,"positive daily momentum, relative volume 0.92, above 20-day moving average, RSI 73.49 below 80",5,False
+NVDA,212.5,0.33,124482600,144318250,0.86,62.39,202.22,5.08,1.43,10.71,3.36,38.44,True,0.5592219278408819,55.92,False,"positive daily momentum, relative volume 0.86, above 20-day moving average, RSI 62.39 below 80",6,False
+MSFT,395.63,2.78,36199900,47021255,0.77,65.9,380.05,4.1,-1.56,-9.88,3.16,38.18,True,0.5454020917288387,54.54,False,"positive daily momentum, relative volume 0.77, above 20-day moving average, RSI 65.90 below 80",6,False
+NFLX,73.68,0.2,32733900,49779280,0.66,55.11,74.5,-1.1,-9.34,-21.81,3.42,41.32,False,0.5205602969526442,52.06,False,"positive daily momentum, relative volume 0.66, RSI 55.11 below 80",5,False
+GOOGL,370.92,3.17,28274200,34271815,0.82,67.54,357.69,3.7,-0.26,15.81,2.79,33.76,True,0.4237226024223445,42.37,False,"positive daily momentum, relative volume 0.82, above 20-day moving average, RSI 67.54 below 80",6,False
+AMZN,254.96,3.02,45166300,60832955,0.74,72.04,241.38,5.63,0.73,9.06,2.95,33.63,True,0.422905870555232,42.29,False,"positive daily momentum, relative volume 0.74, above 20-day moving average, RSI 72.04 below 80",6,False
+AAPL,327.5,4.01,60884500,65226360,0.93,70.23,301.93,8.47,8.98,19.92,2.9,36.53,True,0.39281675772111874,39.28,False,"positive daily momentum, relative volume 0.93, above 20-day moving average, RSI 70.23 below 80",6,False

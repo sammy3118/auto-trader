@@ -1,0 +1,2 @@
+symbol,price,daily_change,current_volume,average_volume,relative_volume,rsi,moving_average_20,distance_from_ma_20,distance_from_ma_50,distance_from_ma_200,atr_percent,volatility_20,above_20_day_ma,big_move_probability,probability_big_move_5_days,meets_big_move_threshold,reason,score,qualifies
+SOFI,17.87,-3.67,72177300,87873640,0.82,54.73,17.94,-0.38,5.27,-18.48,5.26,44.64,False,0.7359167414628,73.59,True,"relative volume 0.82, RSI 54.73 below 80, large-move probability 73.59%",4,True
